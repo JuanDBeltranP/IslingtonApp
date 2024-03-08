@@ -1,0 +1,16 @@
+name: mesh
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - streamlit
+  - pandas
+  - geopandas
+  - numpy
+  - folium
+  - plotly
+  - pip:
+      - streamlit-folium
+      - joblib
